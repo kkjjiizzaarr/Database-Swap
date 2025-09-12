@@ -1,0 +1,32 @@
+# Example: MySQL to MongoDB Migration
+source:
+  type: "mysql"
+  connection:
+    host: "localhost"
+    port: 3306
+    database: "ecommerce"
+    username: "migration_user"
+    password: "secure_password"
+
+target:
+  type: "mongodb"
+  connection:
+    host: "localhost"
+    port: 27017
+    database: "ecommerce_nosql"
+
+migration:
+  batch_size: 2000
+  rate_limit_delay: 0.05
+  max_retries: 3
+  timeout: 60
+  tables: ["users", "products", "orders", "categories"]
+
+validation:
+  strict_mode: false  # More lenient for cross-database migration
+  data_type_validation: true
+
+logging:
+  level: "INFO"
+  file: "mysql_to_mongo.log"
+  console: true

@@ -1,0 +1,37 @@
+# Default configuration for database swap operations
+source:
+  type: "sqlite"  # mongodb, mysql, sqlite
+  connection:
+    host: "localhost"
+    port: null
+    database: "source.db"
+    username: null
+    password: null
+    
+target:
+  type: "mongodb"  # mongodb, mysql, sqlite
+  connection:
+    host: "localhost"
+    port: 27017
+    database: "target_db"
+    username: null
+    password: null
+
+# Migration settings
+migration:
+  batch_size: 1000
+  rate_limit_delay: 0.1  # seconds between batches
+  max_retries: 3
+  timeout: 30  # seconds
+  
+# Validation settings
+validation:
+  strict_mode: true
+  data_type_validation: true
+  foreign_key_validation: false
+  
+# Logging settings
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "database_swap.log"
+  console: true
